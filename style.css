@@ -1,0 +1,190 @@
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(150,15 0,150);
+}
+
+h1 {
+  color: #CC3629;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1,4;
+  text-align: center;
+}
+
+h1,h2,h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(200,200,200);
+}
+
+a:hover {
+  color: #CC3629;
+}
+
+li {
+  list-style:square;
+  color: #CC3629;
+}
+
+ul {
+  padding: 0px;
+}
+
+.ex-style-div {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 2px rgb(230, 230, 230);
+  text-align: center;
+  border-radius: 2%;
+  margin: 20px;
+}
+
+td {
+  padding: 20px;
+}
+
+td > img {
+  width: 60px;
+}
+
+td > p {
+  text-align: left;
+}
+
+table {
+  margin: auto;
+}
+
+.image-circle {
+  border-radius: 50%
+}
+
+#profile {
+  border: 3px solid lightgrey;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 15px;
+  border-radius: 2px;
+  background-color: lightgrey;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #e83c30;
+  color: white;
+}
+
+.btn-red {
+  background-color: #CC3629;
+}
+
+.inline-list li {
+  display: inline-block;
+  width: 100px;
+  font-size: 18px;
+  line-height: 30px
+}
+
+.inline-list i {
+  font-size: 22px;
+  color: grey;
+}
+
+i:hover {
+  color: #CC3629;
+}
+
+.grow {
+  transition: 0.3s ease transform;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.grow-rotate {
+  transition: 0.3s ease transform;
+}
+
+.grow-rotate:hover {
+  transform: scale(2.1) rotate(360deg);
+}
+
+.grow-rotate-y {
+  transition: 0.4s ease transform;
+}
+
+.grow-rotate-y:hover {
+  transform: scale(1.1) rotateY(-180deg);
+}
+
+
+#wrapper {
+  background-color: #e1e1e1;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 50px;
+  width: 1000px;
+  position: relative;
+}
+
+#left-container {
+  /*background-color: #559ce8;*/
+  float: left;
+  width: 35%;
+}
+
+#right-container {
+  /*background-color: #66e871;*/
+  float: right;
+  width: 65%;
+}
+
+#right-container > .ex-style-div {
+  padding-bottom: 38px;
+}
+
+#bottom-container {
+  /*background-color: black;*/
+  clear: both;
+  position: relative;
+  top: 20px;
+}
+
+#social-links {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#bottom-container > .ex-style-div {
+  padding-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
+
